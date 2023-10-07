@@ -4,6 +4,7 @@ const app = express();
 
 const PORT = 5000;
 
+app.use(express.static(__dirname + "/public"));
 app.get("/homepage", (req, res) => {
   res.sendFile(__dirname + "/views/homepage.html");
 });
