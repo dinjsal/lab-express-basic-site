@@ -18,14 +18,32 @@ body {
     animation: transitionIn .75s;
 }
 
-span {
-    font-style: italic;
+#dr-lustig-photo {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
+#dr-lustig-photo:hover {
+    transform: scale(1.1);
+}
+
+#between {
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 30px;
+}
+
+nav {
+    text-align: center;
 }
 
 #about {
     border-style: solid;
     border-width: 1px;
-    margin: 10px;
+    margin: 15px;
     text-align: justify;
     padding: 20px 20px;
 }
@@ -41,84 +59,13 @@ span {
     justify-content: space-around;
 }
 
-button {
-    margin: 20px;
-    position: absolute;
-}
-
-
 #photo-name {
     display: flex;
     flex-direction: row;
 }
 
-#between {
-    border-style: solid;
-    border-width: 1px;
-    margin-bottom: 30px;
-
+span {
+    font-style: italic;
 }
 
-#dr-lustig-photo {
-    width: 80px;
-    border-radius: 50%;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    transition: transform .2s;
-}
 
-#dr-lustig-photo:hover {
-    transform: scale(1.1);
-}
-
-#grab-copy {
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.grab-copy-text {
-    margin-top: 100px;
-    margin-right: 20px;
-    padding: 20px;
-}
-
-#metabolical-photo {
-    width: 200px;
-    margin: 40px 0px 10px 0px;
-    transition: transform .2s;
-}
-
-#metabolical-photo:hover {
-    transform: scale(1.1);
-}
-
-#books-photo {
-    width: 650px;
-    background-size: cover;
-}
-
-nav {
-    text-align: center;
-}
-
-button {
-    background-color: brown;
-    border: none;
-    position: relative;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    padding: 10px 20px;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-li {
-    list-style-type: none;
-}
-
-#books {
-    background-image: url('./images/books.jpg');
-
-}

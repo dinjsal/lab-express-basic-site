@@ -14,7 +14,7 @@ body {
     font-family: 'Kanit', sans-serif;
     margin: 20px;
     padding: 0;
-    background-color: rgb(225, 206, 179);
+    background-color: rgb(212, 199, 180);
     animation: transitionIn .5s;
 }
 
@@ -30,6 +30,10 @@ body {
 
 }
 
+nav {
+    text-align: center;
+}
+
 #info {
     display: flex;
     justify-content: space-between;
@@ -40,7 +44,7 @@ body {
     border-width: 1px;
     margin: 10px;
     text-align: justify;
-    padding: 20px 20px;
+    padding: 15px 15px;
 }
 
 .border-solid:hover {    
@@ -64,25 +68,20 @@ span {
     transform: scale(1.1);
 }
 
-#grab-copy {
-    text-align: center;
-    display: flex;
-    justify-content: center;
+ul {
+    text-align: justify;
+    margin-bottom: 40px;
 }
 
-.grab-copy-text {
-    margin-top: 100px;
-    margin-right: 20px;
-    padding: 20px;
+li:hover {    
+    background-color: rgb(149, 145, 145);
+    transition: 0.2s;
 }
 
-#metabolical-photo {
-    width: 200px;
-    margin: 40px 0px 10px 0px;
-    transition: transform .2s;
+#books {
+    width: 800px;
 }
 
-#metabolical-photo:hover {
+#books:hover {
     transform: scale(1.1);
 }
-

@@ -23,6 +23,10 @@ body {
     flex-direction: row;
 }
 
+nav {
+    text-align: center;
+}
+
 #between {
     border-style: solid;
     border-width: 1px;
@@ -38,7 +42,7 @@ body {
 .border-solid {
     border-style: solid;
     border-width: 1px;
-    margin: 10px;
+    margin: 20px;
     text-align: justify;
     padding: 20px 20px;
 }
@@ -84,34 +88,4 @@ span {
 
 #metabolical-photo:hover {
     transform: scale(1.1);
-}
-
-#books-photo {
-    width: 650px;
-    background-size: cover;
-}
-
-nav {
-    text-align: center;
-}
-
-button {
-    background-color: brown;
-    border: none;
-    position: relative;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-    padding: 10px 20px;
-    font-size: 10px;
-    font-weight: bold;
-}
-
-li {
-    list-style-type: none;
-}
-
-#books {
-    background-image: url('./images/books.jpg');
-
 }
