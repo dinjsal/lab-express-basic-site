@@ -1,44 +1,98 @@
-@font-face {
-    font-family: 'Tahoma','Verdana','Arial Black','Calibri','Comic Sans MS',sans-serif;
-    src: url();
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 10px;
+    font-family: 'Kanit', sans-serif;
+    margin: 20px;
     padding: 0;
     background-color: rgb(225, 206, 179);
+    animation: transitionIn .5s;
 }
 
-#welcome {
+#photo-name {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
 }
 
-#h1 {
-    text-align: center;
+#between {
+    border-style: solid;
+    border-width: 1px;
+    margin-bottom: 30px;
+
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
 }
 
 .border-solid {
     border-style: solid;
     border-width: 1px;
-    margin: 5px;
+    margin: 10px;
     text-align: justify;
-    padding: 30px 30px;
+    padding: 20px 20px;
+}
+
+.border-solid:hover {    
+    background-color: rgb(149, 145, 145);
+    transition: 0.2s;
+}
+
+span {
+    font-weight: bold;
 }
 
 #dr-lustig-photo {
-    width: 200px;
+    width: 80px;
     border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
+#dr-lustig-photo:hover {
+    transform: scale(1.1);
+}
+
+#grab-copy {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.grab-copy-text {
+    margin-top: 100px;
+    margin-right: 20px;
+    padding: 20px;
 }
 
 #metabolical-photo {
-    width: 250px;
+    width: 200px;
+    margin: 40px 0px 10px 0px;
+    transition: transform .2s;
+}
+
+#metabolical-photo:hover {
+    transform: scale(1.1);
 }
 
 #books-photo {
     width: 650px;
     background-size: cover;
+}
+
+nav {
+    text-align: center;
 }
 
 button {

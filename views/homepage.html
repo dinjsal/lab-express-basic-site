@@ -5,39 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="../public/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <h1><p>Welcome!</h1></p>
+    <div id="photo-name">
+    <img src="../public/images/dr-lustig1.jpeg" alt="dr-lustig" id="dr-lustig-photo" /> <h1>Dr. Robert Lustig</h1> 
     </div>
-    <div id="welcome">
-    <img src="../public/images/dr-lustig1.jpeg" alt="dr-lustig" id="dr-lustig-photo" />
-    <div class="border-solid"><p>Let's get to know Dr. Robert Lustig, an endocrinologist from the US.</p></div>
-    <div class="border-solid"><p>He's pioneered in advocating for the link of our diet to obesity and our metabolic health.</p></div>
-    <div class="border-solid"><p>I consider him my hero and I'd like more people to know about him and his impact to the society.</p></div>
+    
+
+    <div id="between"></div>
+
+    <nav>
+        <a href="/about">About</a> &nbsp &nbsp &nbsp
+        <a href="/works">Publications</a>
+    </nav>
+    <br>
+
+    <div id="info">
+    
+    <div class="border-solid"><p>Let's get to know <span>Dr. Lustig</span>, an endocrinologist from the US.</p>
+        <p>He's pioneered in advocating for the link of our diet to obesity and our metabolic health.</p>
     </div>
-    <div>
-        
-        
-        <p>
-        You'll know more about him <a href="/about">here</a>.
-        </p>
-        <p>
-        Grab a copy of his latest book: <a href="https://www.amazon.co.jp/Metabolical-Processed-Nutrition-Modern-Medicine/dp/0063027712">Metabolical: The Lure and Lies of Processed Food, Nutrition, and Modern Medicine.</a> 
-        
-        <br><img src="../public/images/Metabolical-cover-jacket-980x1479.jpg" alt="metabolical-book" id="metabolical-photo" />
-        </p>
+
+    <div class="border-solid">
+        <p>I consider him my hero and I'd like more people to know about him and his impact to the society.</p>
+        <p>You'll know more about him <a href="/about">here</a>.</p>
+    <p>His insightful talks are also all over Youtube.</p>
+    <p><a href="https://www.youtube.com/watch?time_continue=2&v=dBnniua6-oM&embeds_referring_euri=http%3A%2F%2F127.0.0.1%3A5500%2F&source_ve_path=Mjg2NjY&feature=emb_logo">Sugar: The Bitter Truth</a> jumpstarted my discovery of his amazing work. Be sure to watch it now!</div></p>
+    </div>
+    <div id="grab-copy">    
+        <div class="grab-copy-text"><p>
+        Grab a copy of his latest book: <br><a href="https://www.amazon.co.jp/Metabolical-Processed-Nutrition-Modern-Medicine/dp/0063027712">Metabolical: The Lure and Lies of Processed Food, Nutrition, <br>and Modern Medicine.</a>
+        </p> 
         <p>
         Click <a href="/works">here</a> to check out his other books.
         </p>
-        <p>
-        You can also see his insightful talks all over Youtube. 
-        <br>This one specifically jumpstarted my discovery of his amazing work. Be sure to watch it now!
-        <br><iframe width="560" height="315" src="https://www.youtube.com/embed/dBnniua6-oM?si=DhJ0OJKU5_SOOe-i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </p>
+        </div>
+        <div>
+        <img src="../public/images/Metabolical-cover-jacket-980x1479.jpg" alt="metabolical-book" id="metabolical-photo" />
+        </div>
     </div>
-    
-    
+   
     <script src="/app.js"></script>
 </body>
 </html>
