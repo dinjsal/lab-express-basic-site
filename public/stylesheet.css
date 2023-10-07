@@ -1,27 +1,63 @@
+@font-face {
+    font-family: 'Tahoma','Verdana','Arial Black','Calibri','Comic Sans MS',sans-serif;
+    src: url();
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin: 0;
+    margin: 10px;
     padding: 0;
-    background-color: rgb(235, 210, 176);
+    background-color: rgb(225, 206, 179);
+}
+
+#welcome {
+    display: flex;
+    justify-content: center;
+}
+
+#h1 {
+    text-align: center;
+}
+
+.border-solid {
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px;
+    text-align: justify;
+    padding: 30px 30px;
 }
 
 #dr-lustig-photo {
-    width: 400px;
+    width: 200px;
+    border-radius: 50%;
 }
 
 #metabolical-photo {
-    width: 300px;
+    width: 250px;
+}
+
+#books-photo {
+    width: 650px;
+    background-size: cover;
 }
 
 button {
     background-color: brown;
     border: none;
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    padding: 10px 30px;
+    padding: 10px 20px;
     font-size: 10px;
     font-weight: bold;
+}
+
+li {
+    list-style-type: none;
+}
+
+#books {
+    background-image: url('./images/books.jpg');
+
 }
